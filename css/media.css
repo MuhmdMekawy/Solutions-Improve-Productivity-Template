@@ -1,0 +1,48 @@
+@media (max-width:566px){
+    .header .content h1,
+    .data .content h1,
+    .solutions .content .left h1,
+    .it .content .left h1,
+    .web .content .left h1{
+        font-size: 45px;
+    }
+    .features .content .one,
+    .features .content .two,
+    .features .content .three,
+    .features .content .four{
+        width: 95%;
+    }
+    .web .content .left{
+    padding: 40px 30px;
+    margin-top: -20px;
+    }
+    .web .content .right {
+        text-align: center;
+    }
+    .touch .content .cont .first{
+        width: 80%;
+    }
+
+}
+@media (max-width:990px){
+    .photo{
+        display: none;
+    }
+    .services{
+        transform: translate(0);
+    }
+    .services .content .cont{
+        width: 95%;
+    }
+    
+    .web .content .right img{
+        width: 100%;
+    }
+    .touch .content .cont{
+        flex-direction: column;
+    }
+    .touch .content .cont .first{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
